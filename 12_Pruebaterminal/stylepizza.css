@@ -1,0 +1,12 @@
+.CustomTitulo{
+    background-color: rgb(245, 171, 11);
+    text-align: center;
+}
+
+.CustomCards{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

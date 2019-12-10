@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+.izquierda{
+    border:solid 4px palevioletred;
+    width:50%;
+    height:75vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+}
+.izquierda > .uno{
+    border:solid 4px greenyellow;
+    width:30%;
+    height:30%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.izquierda >.dos{
+    border:solid 4px lightsalmon;
+    width:30%;
+    height:30%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+}
+.izquierda >.tres{
+    border:solid 4px greenyellow;
+    width:30%;
+    height:30%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.uno > div{
+    border: solid 2px fuchsia;
+    width: 15%;
+    height: 15%;
+}
+.dos > div{
+    border: solid 2px fuchsia;
+    width: 15%;
+    height: 15%;
+}
+.tres > div{
+    border: solid 2px fuchsia;
+    width: 15%;
+    height: 15%;
+}
+.derecha{
+    border:solid 4px black;
+    width:50%;
+    height:75vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: row;
+}
+.derecha > .uno{
+    border:solid 4px lightsalmon;
+    width:30%;
+    height:30%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+}
+.derecha >.dos{
+    border:solid 4px greenyellow;
+    width:30%;
+    height:30%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.derecha >.tres{
+    border:solid 4px lightsalmon;
+    width:30%;
+    height:30%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+}
+main{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: row;
+    padding: 60px 60px 60px 60px;
+}

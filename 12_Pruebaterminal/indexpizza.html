@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylepizza.css">
+    <title>Pizza</title>
+</head>
+
+<body>
+    
+    <header class= "CustomTitulo">
+        <h1><b>¿Qué tipo de pizza te gusta?</b></h1>
+    </header>
+    <section class="CustomCards mx-auto">
+        <div class="card" style="width: 18rem;">
+            <img src="./Assets/Imagenes/Menu.jpg" class="card-img-top" alt="Menu">
+            <div class="card-body">
+              <h5 class="card-title"> Nuestro Menu :) </h5>
+              <p class="card-text">Elige tu pizza e ingredientes!</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./Assets/Imagenes/Peperonni.jpg" class="card-img-top" alt="Peperonni">
+            <div class="card-body">
+              <h5 class="card-title">Pizza de Peperonni</h5>
+              <p class="card-text">Ingredientes: La siempre obvia salsa de jitomate, mozzarella, peperonni.</p>
+              <a href="#" class="btn btn-primary">Ordena Aqui</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./Assets/Imagenes/hawaiana.jpg" class="card-img-top" alt="Hawaiana">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Hawaiana</h5>
+              <p class="card-text">Ingredientes: La siempre obvia salsa de jitomate, mozzarella, jamon, piña.</p>
+              <button id="Ordena" type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content=" 
+              
+        
+            </section>">Ordena Aqui</button>
+            </div>
+          </div>
+    </section>
+    <section>
+        <input placeholder="Nombre" type="text" id="Name">
+        <input placeholder="Direccion" type="text" id="Add">
+        <input placeholder="Con o sin piña" type="text" id="Pizza">
+        <div>
+            <button id="boton" class="btn btn-dark">Submit</button>
+        </div>
+        <section>
+            <p id="textName"></p>
+            <p id="textAdd"></p>
+            <p id="textPizza"></p>
+        </section>
+
+    </section>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="mainpizza.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+nav{
+    margin-left: 1000px;
+    border:solid grey 4px;
+}
+.Google{
+    padding:100px 400px 600px 400px;
+}
+input{
+    border-radius:5px;
+    width:500px;
+    padding:left 600px;
+    height:30px;
+}
+.Usuario{
+    display:inline-block;
+    height: auto;
+    width: 100%;
+    border:solid black 2px;
+}

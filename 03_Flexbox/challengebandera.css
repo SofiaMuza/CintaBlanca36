@@ -1,0 +1,41 @@
+body{
+    margin:0;
+}
+main{
+    border:solid 4px red;
+    width: 100%;
+    height: 100vh;
+}
+.Superior,.Inferior {
+border:solid 4px blue;
+width: 100%;
+height:50vh;
+display:flex;
+justify-content:space-between;
+background-color: blue;
+}
+.cuadroblanco{
+    /* border: solid 4px; */
+    width: 300px;
+    height:250px;
+    background-color: white;
+}
+.rectanguloblanco{
+    /* border: solid 4px; */
+    width:850px;
+    height:250px;
+    display:flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+.bajarcontenido{
+    display:flex;
+    align-items: flex-end;
+}
+.cuadrorojo,.rectangulorojo{
+    /* border:solid 4px red; */
+    width:85%;
+    height:85%;
+    background-color: red;
+
+}

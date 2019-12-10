@@ -1,0 +1,60 @@
+header{
+    border:solid 3px
+}
+
+nav{
+    border:solid 2px;
+    color:red;
+    height: 30px;
+    Padding-top:10px;
+    text-align: right;
+    Padding: right 10px;
+}
+/* estandarizando estilos de todas las etiquetas a */
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 4px;
+}
+main{
+    border:solid 1px red;
+}
+section{
+    border:solid 3px blue;
+    padding: 100px 0 0 400px;
+}
+.logocontainer{
+    margin-left:20px;
+}
+
+.inputandbuttonscontainer{
+    border:solid 4px palevioletred;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+    /* Cuando tengo varios inputs pero se diferencian por estar en distintas cajas los puedes llamar con < input junto al nombre de la caja */
+
+.inputandbuttonscontainer >input {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+}
+.inputandbuttonscontainer > div {
+    border: solid 5px blue;
+    padding-left:120px;
+    margin-top:25px;
+
+}
+.inputandbuttonscontainer > div button {
+    width: 150px;
+    height:35px;
+    font-size: 14px;
+    margin: 0 2px;
+    background-color: grey
+    
+
+
+
+}

@@ -1,0 +1,20 @@
+/* *{background:red;} */
+body{background:lightblue;}
+nav{border: solid 2px black;
+margin-left: 500px;}
+h1{border:solid 2px blueviolet;
+padding: left 300px;
+text-align:center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+a{border:solid red 5px;}
+/* p{border:solid 3px blueviolet;
+width: 50%;
+height: 500px;} */
+p{display: inline-block;
+height:150px;}
+.Parrafo1{border:solid brown 3px;
+width: 30%;}
+.Parrafo2{border:solid grey 2px;
+width: 40vw;
+margin: 20px 80px 55px 100px;
+}
